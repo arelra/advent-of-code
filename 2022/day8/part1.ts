@@ -1,4 +1,4 @@
-const readForest = (): Array<Array<Number>> =>
+const readForest = (): Array<Array<number>> =>
   Deno.readTextFileSync("./input.txt").split("\n")
     .filter(l => !!l)
     .map(l => [...l].map(Number))
