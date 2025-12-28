@@ -1,0 +1,30 @@
+[package]
+name = "aoc_rust"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "day-01-1"
+path = "src/day-01-1.rs"
+
+[[bin]]
+name = "day-01-2"
+path = "src/day-01-2.rs"
+
+[[bin]]
+name = "day-02-1"
+path = "src/day-02-1.rs"
+
+[[bin]]
+name = "day-02-2"
+path = "src/day-02-2.rs"
+
+[[bin]]
+name = "day-03-1"
+path = "src/day-03-1.rs"
+
+[[bin]]
+name = "day-03-2"
+path = "src/day-03-2.rs"
+
+[dependencies]
